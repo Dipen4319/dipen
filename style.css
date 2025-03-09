@@ -1,0 +1,465 @@
+*{
+padding: 0;
+margin: 0;}
+
+
+#notification{height: 50px;
+    background-color:#f5ebe0;
+}
+#facebook{display: inline-block;color:black;
+    margin-top: 20px;
+    margin-right: 10px;}
+#instagram{display: inline-block;margin-top: 20px;
+    margin-right: 10px;color:black;}
+#pinterest{display: inline-block;margin-top: 20px;color:black;}
+
+
+#notificationtext{text-align: center;display: inline-block;margin-top: 5px;margin-left: 380px;}
+
+
+
+
+
+#head{
+    height: 200px;
+
+}
+#searchicon{
+    display: inline-block;
+    margin-top: 85px;
+    margin-right: 0%;
+}
+
+#searchbar{
+    display:inline-block;
+    width: 150px;
+    height: 20px;
+    margin-top: 30px;
+    border:2px solid black;
+    border-radius: 8%;
+    margin-right: 380px;
+  
+}
+#logo{
+    display:inline-block;
+    height: 100px;
+width: 250px ;
+margin-right: 420px;
+margin-top: 50px;
+
+}
+    
+
+
+#account{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    display: inline-block;
+    text-align: right;
+    margin-top: 80px;
+}
+#cart{
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+    display: inline-block;
+    margin-top: 80px;
+}
+/*navbar*/
+
+#navbar{
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navlink{
+    margin-top: 15px;
+    text-decoration: none;
+    color: black;}
+#l1:hover{color: #f5ebe0;}#l2:hover{color: #f5ebe0;}#l3:hover{color: #f5ebe0;}
+#l4:hover{color: #f5ebe0;}#l5:hover{color: #f5ebe0;}#l6:hover{color: #f5ebe0;}
+
+#l1:active{color: #f5ebe0;}#l2:active{color: #f5ebe0;}#l3:active{color: #f5ebe0;}
+#l4:active{color: #f5ebe0;}#l5:active{color: #f5ebe0;}#l6:active{color: #f5ebe0;}
+
+
+
+
+/*main*/
+#mainimage{
+    margin-top: 0%;
+    height: 550px;
+    text-align: center;
+    display: block;
+    background-image: url("mainimg.png");   
+    background-size: cover;
+    filter: opacity(0.8);
+    filter:brightness(80%);
+
+}
+
+#stylewithpurpose{
+    display: inline-block;
+    margin-top: 50px;
+    
+}
+    
+#line{
+    margin-top: 200px;
+    font-size: 50px;
+
+    
+}
+#shopfaithbasedline{
+    border: 2px solid #f5ebe0;
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+    color: black;
+    background-color: #f5ebe0;
+    display:inline-block;
+    margin-top: 30px;
+    border-radius: 8%;
+
+}
+
+
+#main{
+    height: 150px;
+    background-color: #f5ebe0;
+    
+}
+#ourmission{
+    margin-top: 30px;
+    margin-left: 43%;
+    text-align: center;
+    font-size: 30px;
+    display: inline-block;
+}
+#paragraph{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+#sidetext{
+    display: flex;
+    justify-content: space-between;
+}  
+#middle{
+    
+    width: 30%;
+    margin-left: 30px;
+    height: 300px;
+    margin-top: 50px;
+    display: inline;
+
+}
+#text{
+    width: 30%;
+    margin-top: 150px;
+    margin-right: 20%;
+    display: inline-block;
+}
+#goods{
+    font-size: 50px;
+    font-weight: lighter;
+}
+#goodspara{
+    font-size: 15px;
+    margin-left: 60px;
+    display: inline-block;
+}
+
+#p{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 100px;
+}
+#viewall{
+    text-align:center;
+    margin-top: 30px;
+    display: inline-block;
+    margin-left: 48%; 
+    color: #e2ceb9;
+}
+#allimages{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+#img1{height:250px;
+width: 230px;}
+#img2{height: 250px;
+    width: 230px;}
+#img3{height: 250px;
+    width: 230px;
+}
+#img4{height: 250px;
+    width: 230px;
+}
+#imagetext{
+    display: inline-block;
+    display: flex;
+    margin-top: 15px;
+}
+#text1{
+    display: inline-block;
+    margin-left: 80px;
+}
+#text2{
+    display: inline-block;
+    margin-left: 170px;
+}
+#text3{
+    display: inline-block;
+    margin-left: 122px;
+}
+#text4{
+    display: inline-block;
+    margin-left: 157px;
+}
+
+#homegoods{
+    background-image: url("homegoods.png");
+    background-size: cover;
+    height: 700px;
+    display: block;
+    margin-top: 30px;
+    filter: opacity(0.8);
+    filter:brightness(80%)
+}
+#homegoods1{
+    color: white;
+    font-size: 50px;
+    display: inline-block;
+    margin-top: 300px;
+    margin-left: 50px;
+
+}
+#homegoods2{
+    color: white;
+    display: inline-block;
+    margin-left: 50px;
+    margin-top:10px;
+}
+#shopcollection{
+    color:black;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 70px;
+    margin-top: 10px;
+    border-radius: 8%;
+}
+#shophomegoods{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 100px;
+}
+#viewall2{
+    text-align:center;
+    margin-top: 30px;
+    display: inline-block;
+    margin-left: 48%; 
+    color: #e2ceb9;
+}
+#allhgimages{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+#hgimg1{height:250px;
+width: 230px;}
+#hgimg2{height: 250px;
+    width: 230px;}
+#hgimg3{height: 250px;
+    width: 230px;
+}
+#hgimg4{height: 250px;
+    width: 230px;}
+
+ #hgimagetext{
+        display: inline-block;
+        display: flex;
+        margin-top: 15px;
+    }
+    #hgtext1{
+        display: inline-block;
+        margin-left: 90px;
+    }
+    #hgtext2{
+        display: inline-block;
+        margin-left: 170px;
+    }
+    #hgtext3{
+        display: inline-block;
+        margin-left: 220px;
+    }
+    #hgtext4{
+        display: inline-block;
+        margin-left: 180px;
+    }
+
+
+#arttext{
+    text-align: center;
+    margin-top: 180px;
+    font-size: 50px;
+
+    }
+#artisans{
+    display: flex;
+    justify-content: space-evenly;
+}
+#art1{
+    height: 500px;
+    width: 500px;
+    display:inline-block;
+    margin-top: 50px;
+    
+}
+#art2{
+    height: 500px;
+    width: 500px;
+    display:inline-block;
+    margin-top: 50px;
+}
+#allarttext{
+    display: flex;
+    
+    margin-top: 10px;
+}
+#arttext1{
+    margin-left: 110px;
+    
+}
+#arttext2{
+    margin-left:300px;
+}
+#naturalmaterials{
+    background-image: url("naturalmaterials.png");
+    background-size: cover;
+    height: 600px;
+    display: block;
+    margin-top: 100px;
+    filter: opacity(0.8);
+    filter:brightness(80%)
+}
+#naturalmaterials1{
+    text-align: center;
+    font-size: 80px;
+    display: inline-block;
+    margin-top: 170px;
+    margin-left: 20%;
+    
+}
+#naturalmaterials2{
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 7%;
+}
+#shopnewstyles{
+    color:black;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 40%;
+    margin-top: 50px;
+    border-radius: 8%;
+}
+#rating{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 40px;
+}
+#stars{
+    margin-top: 20px;
+    color: rgb(153, 46, 46);
+    text-align: center;
+}
+#reviews66{
+    text-align: center;
+    color: rgb(153, 46, 46);
+    margin-top: 10px;
+}
+#ratings{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    
+
+}
+
+#star1{ color: rgb(153, 46, 46);}
+#star2{ color: rgb(153, 46, 46);}
+#star3{ color: rgb(153, 46, 46);}
+
+#rating1{ text-align: center;}
+#rating2{ text-align: center;}
+#rating3{text-align: center;}
+
+#rmt1{margin-top: 7px;}#rmt2{margin-top: 7px;}#rmt3{margin-top: 7px;}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:100px;
+    background-color: #f5ebe0;
+}
+
+
+#f1title{font-size:20px; margin-top: 30px;}
+#f1text{ margin-top: 10px;}
+#fi{display: inline-block;
+margin-top: 10px;
+margin-right: 10px; color: black;}
+#ii{display: inline-block;margin-top: 10px;color: black;
+margin-right: 10px;}
+#pi{display: inline-block;margin-top: 10px;color: black;}
+
+
+#f2title{font-size: 20px; margin-top: 30px;}
+#A{display: block; margin-top: 10px;color: black; text-decoration: none;}
+#R{display: block; margin-top: 10px;color: black; text-decoration: none;}
+#F{display: block; margin-top: 10px;color: black; text-decoration: none;}
+#P{display: block; margin-top: 10px;color: black; text-decoration: none;}
+#T{display: block; margin-top: 10px;color: black; text-decoration: none;}
+
+
+#f3title{font-size: 20px; margin-top: 30px;}
+#f3text{ margin-top: 10px;}
+#email{border: 2px solid white;
+border-radius: 8%;
+margin-top: 20px;
+height: 30px;
+width: 200px;
+display: block;
+}
+#signupbutton{
+    
+    width: 100px;
+    background-color: white;
+    border-radius: 8%;
+    border:2px solid white;
+    text-align: center;
+    margin-top: 30px;
+    padding: 5px 5px 5px 5px;
+    color: rgb(151, 149, 149);
+    text-decoration: none;
+}
+
+#copyrighttext{
+    
+    background-color: #f5ebe0;
+    font-size: 13px;
+}
+
+
+

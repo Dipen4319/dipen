@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;}
+    
+    
+    #notification{height: 50px;
+        background-color:#f5ebe0;
+    }
+    #facebook{display: inline-block;color:black;
+        margin-top: 20px;
+        margin-right: 10px;}
+    #instagram{display: inline-block;margin-top: 20px;
+        margin-right: 10px;color:black;}
+    #pinterest{display: inline-block;margin-top: 20px;color:black;}
+    
+    
+    #notificationtext{text-align: center;display: inline-block;margin-top: 5px;margin-left: 380px;}
+    
+    
+    #head{
+        height: 200px;
+    
+    }
+    #searchicon{
+        display: inline-block;
+        margin-top: 85px;
+        margin-right: 0%;
+    }
+    
+    #searchbar{
+        display:inline-block;
+        width: 150px;
+        height: 20px;
+        margin-top: 30px;
+        border:2px solid black;
+        border-radius: 8%;
+        margin-right: 380px;
+      
+    }
+    #logo{
+        display:inline-block;
+        height: 100px;
+    width: 250px ;
+    margin-right: 420px;
+    margin-top: 50px;}
+
+    #account{
+        text-decoration: none;
+        color: black;
+        margin-right: 20px;
+        display: inline-block;
+        text-align: right;
+        margin-top: 80px;
+    }
+    #cart{
+        text-decoration: none;
+        color: black;
+        margin-right: 15px;
+        display: inline-block;
+        margin-top: 80px;
+    }
+    #navbar{
+        height: 60px;
+        
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .navlink{
+        margin-top: 15px;
+        text-decoration: none;
+        color: black;
+    }
+    #l4{color: #f5ebe0;}
+    #l1:hover{color: #f5ebe0;}#l2:hover{color: #f5ebe0;}#l3:hover{color: #f5ebe0;}
+    #l4:hover{color: #f5ebe0;}#l5:hover{color: #f5ebe0;}#l6:hover{color: #f5ebe0;}
+    
+    #l1:active{color: #f5ebe0;}#l2:active{color: #f5ebe0;}#l3:active{color: #f5ebe0;}
+    #l4:active{color: #f5ebe0;}#l5:active{color: #f5ebe0;}#l6:active{color: #f5ebe0;}
+    
+    
+
+
+    /* section*/
+
+
+    #bracelets{ text-align: center;
+        font-size: 40px;
+        margin-top: 30px;
+    }
+    #braceletsstext{text-align: center;margin-top: 20px;}
+
+
+
+    /*bracelets*/
+#allimagesofb{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+#img1ofb{height:250px;
+width: 230px;}
+#img2ofb{height: 250px;
+    width: 230px;}
+#img3ofb{height: 250px;
+    width: 230px;
+}
+#img4ofb{height: 250px;
+    width: 230px;
+}
+#imagetextofb{
+    display: inline-block;
+    display: flex;
+    margin-top: 15px;
+}
+#text1ofb{
+    display: inline-block;
+    margin-left: 90px;
+}
+#text2ofb{
+    display: inline-block;
+    margin-left: 190px;
+}
+#text3ofb{
+    display: inline-block;
+    margin-left: 220px;
+}
+#text4ofb{
+    display: inline-block;
+    margin-left: 160px;
+}
+
+
+
+/*bracelets 2*/
+#allimagesofb2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+#img1ofb2{height:250px;
+width: 230px;}
+#img2ofb2{height: 250px;
+    width: 230px;}
+#img3ofb2{height: 250px;
+    width: 230px;
+}
+#img4ofb2{height: 250px;
+    width: 230px;
+}
+#imagetextofb2{
+    display: inline-block;
+    display: flex;
+    margin-top: 15px;
+}
+#text1ofb2{
+    display: inline-block;
+    margin-left: 85px;
+}
+#text2ofb2{
+    display: inline-block;
+    margin-left: 215px;
+}
+#text3ofb2{
+    display: inline-block;
+    margin-left: 225px;
+}
+#text4ofb2{
+    display: inline-block;
+    margin-left: 170px;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:100px;
+    background-color: #f5ebe0;
+}
+
+
+#f1title{font-size:20px; margin-top: 30px;}
+#f1text{ margin-top: 10px;}
+#fi{display: inline-block;
+margin-top: 10px;color: black;
+margin-right: 10px;}
+#ii{display: inline-block;margin-top: 10px;color: black;
+margin-right: 10px;}
+#pi{display: inline-block;margin-top: 10px;color: black;}
+
+
+#f2title{font-size: 20px; margin-top: 30px;}
+#A{display: block; margin-top: 10px;color: black; text-decoration: none;}
+#R{display: block; margin-top: 10px;color: black; text-decoration: none;}
+#F{display: block; margin-top: 10px;color: black; text-decoration: none;}
+#P{display: block; margin-top: 10px;color: black; text-decoration: none;}
+#T{display: block; margin-top: 10px;color: black; text-decoration: none;}
+
+
+#f3title{font-size: 20px; margin-top: 30px;}
+#f3text{ margin-top: 10px;}
+#email{border: 2px solid white;
+border-radius: 8%;
+margin-top: 20px;
+height: 30px;
+width: 200px;
+display: block;
+}
+#signupbutton{
+    
+    width: 100px;
+    background-color: white;
+    border-radius: 8%;
+    border:2px solid white;
+    text-align: center;
+    margin-top: 30px;
+    padding: 5px 5px 5px 5px;
+    color: rgb(151, 149, 149);
+    text-decoration: none;
+}
+
+#copyrighttext{
+    
+    background-color: #f5ebe0;
+    font-size: 13px;
+}
+
+
+
